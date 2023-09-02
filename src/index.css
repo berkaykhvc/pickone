@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+@layer base {
+  body {
+    background-color: rgb(22, 23, 24);
+    color: #f9f9f9;
+    font-family: Poppins, sans-serif;
+    @apply m-0;
+    @apply p-0;
+  }
+}
+
+.home {
+  font-family: Poppins, sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.w-screen {
+  width: 100vw;
+} 
+
+.h-screen {
+  height: 100vh;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
